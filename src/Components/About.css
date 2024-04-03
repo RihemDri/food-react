@@ -1,0 +1,60 @@
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  .about-content {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .about-heading {
+    font-size: 3em;
+    color: #26474E;
+    margin-bottom: 20px;
+  }
+  
+  .about-text {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .tips {
+    background-color: #e2e2e2;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: left;
+  }
+  
+  .tips-heading {
+    font-size: 2em;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  .tips-list {
+    list-style: none;
+    padding: 0;
+   }
+  
+  .tips-list li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #d5d8db;
+    position: relative;
+    padding-left: 20px;
+  }
+  
+  .tips-list li:before {
+    content: '\2022';
+    color: #26474E;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    position: absolute;
+    left: 0;
+  }
+  
